@@ -4,6 +4,35 @@
 
 }
 
+
+
+/* NAVBAR STYLING */
+nav {
+  background-color: oldLace;
+  width: 20%;
+}
+
+nav ul li {
+  list-style: none;
+  color: 
+}
+
+nav ul li a {
+  text-decoration: none;
+}
+
+
+
+/* CONTACT STYLING */
+.contact-logo {
+  width: 28px;
+}   
+
+
+
+
+
+
 /* HEADER & FOOTER STYLING */
 body {
   background-image: url(images/background.jpg);
