@@ -4,6 +4,9 @@
 
 }
 
+img {
+  height: 100px;
+}
 
 
 /* NAVBAR STYLING */
@@ -21,7 +24,13 @@ nav ul li a {
   text-decoration: none;
 }
 
+a: hover {
+  color: white;
+}
 
+a:visited {
+  color: black;
+}
 
 /* CONTACT STYLING */
 .contact-logo {
