@@ -1,0 +1,27 @@
+/* GENERAL STYLING */
+body {
+  position: relative;
+  background-color: oldlace;
+  background-image: url(images/background1.jpg);
+  background-blend-mode: overlay;
+}
+
+/* HEADER/FOOTER STYLING */
+header, footer {
+  background-color: #7e687a;
+  color: oldLace;
+  width: 100%;
+}
+
+header {
+  font-family: 'Rammetto One', cursive;
+  padding: 2em 0 .1em .5em;
+  margin-top: 0;
+}
+
+footer {
+  padding: .5em;
+  margin-bottom: 0;
+}
+
+/* NAVIGATION STYLING */
