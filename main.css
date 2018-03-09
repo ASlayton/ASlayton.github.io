@@ -4,6 +4,8 @@ body {
   background-color: oldlace;
   background-image: url(images/background1.jpg);
   background-blend-mode: overlay;
+  padding: 0;
+  margin: 0;
 }
 
 .page-wrapper {
@@ -38,7 +40,6 @@ header, footer {
   width: 100%;
   clear: both;
   padding: 1em .5em 1em 2em;
-  position: absolute;
 }
 
 header {
@@ -51,6 +52,8 @@ header {
 
 footer {
   margin-top: 15px;
+  position: fixed;
+  bottom: 0;
 }
 
 
@@ -59,9 +62,7 @@ footer {
 nav {
   background-color: #97A686;
   margin: auto;
-  position: absolute;
   clear: both;
-  margin-top: 100px;
   width: 100%;
 }
 

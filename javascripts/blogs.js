@@ -1,4 +1,8 @@
 // BLOG JAVASCRIPT
+function writeToDom(myInnerds, placeToPutIt){
+  var myElement = document.getElementById(placeToPutIt);
+  myElement.innerHTML = myInnerds;
+};
 
 var blogs = [
   {
@@ -31,11 +35,6 @@ function createBlogPost(anArray){
     createAString += "</article>";
   };
   return createAString;
-};
-
-function writeToDom(myInnerds, placeToPutIt){
-  var myElement = document.getElementById(placeToPutIt);
-  myElement.innerHTML = myInnerds;
 };
 
 writeToDom(createBlogPost(blogs),"blog-post-container");
