@@ -11,7 +11,7 @@ body {
 .page-wrapper {
   font-family: 'Raleway', sans-serif;
   position: relative;
-  height-min: 100vh;
+  min-height: 100vh;
   width: 100%;
 }
 
@@ -76,6 +76,8 @@ width: 100%;
 
 nav ul li {
   list-style: none;
+  border:none;
+  outline: none;
 }
 
 .navbar-item a {
@@ -86,10 +88,29 @@ nav ul li {
  li a:hover {
   color: #b6b220;
   font-weight: bold;
+  border: none;
+}
+
+li a:focus{
+  outline: none;
+  border: none;
+}
+
+li.navbar-item:focus {
+  outline: none;
+  border: none;
 }
 
 a:visited {
   color: #fffff1;
+  border: none;
+  outline: none;
+}
+
+a:focus {
+  border:none;
+  outline: none;
+  text-decoration: none;
 }
 
 .current-location{
@@ -101,4 +122,13 @@ a:visited {
 .contact-logo {
   width: 28px;
   height: 28px;
+}
+
+.contact-link, .contact-link:visited{
+  color: maroon;
+}
+
+.contact-link:hover{
+  color: #b6b220;
+  font-weight: bold;  
 }
