@@ -75,13 +75,12 @@ width: 100%;
 
 nav ul li {
   list-style: none;
-  border:none;
-  outline: none;
+  background-color: oldLace;
 }
 
 .navbar-item a {
   text-decoration: none;
-  color: #fffff1;
+  color: #7e687a;
 }
 
  li a:hover {
@@ -95,13 +94,18 @@ li a:focus{
   border: none;
 }
 
+li.navbar-item {
+  width: 100px;
+}
+
 li.navbar-item:focus {
   outline: none;
   border: none;
 }
 
 a:visited {
-  color: #fffff1;
+  color: #7e687a;
+  font-weight: bold;
   border: none;
   outline: none;
 }
