@@ -2,8 +2,7 @@
 body {
   position: relative;
   background-color: oldlace;
-  background-image: url(images/background1.jpg);
-  background-blend-mode: overlay;
+  background-image: url(images/damask-937607.jpg);
   padding: 0;
   margin: 0;
 }
@@ -75,7 +74,6 @@ width: 100%;
 
 nav ul li {
   list-style: none;
-  background-color: oldLace;
 }
 
 .navbar-item a {
@@ -89,18 +87,8 @@ nav ul li {
   border: none;
 }
 
-li a:focus{
-  outline: none;
-  border: none;
-}
-
 li.navbar-item {
   width: 100px;
-}
-
-li.navbar-item:focus {
-  outline: none;
-  border: none;
 }
 
 a:visited {
@@ -108,12 +96,6 @@ a:visited {
   font-weight: bold;
   border: none;
   outline: none;
-}
-
-a:focus {
-  border:none;
-  outline: none;
-  text-decoration: none;
 }
 
 .current-location{
