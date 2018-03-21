@@ -3,6 +3,7 @@ body {
   position: relative;
   background-color: oldlace;
   background-image: url(images/damask-937607.jpg);
+  background-size: cover;
   padding: 0;
   margin: 0;
 }
