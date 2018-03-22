@@ -79,6 +79,7 @@ flex-direction: row;
 justify-content: space-around;
 margin-top: 0;
 width: 100%;
+height: 45px;
 }
 
 nav ul li {
@@ -92,7 +93,6 @@ nav ul li {
 
  li a:hover {
   color: #b6b220;
-  font-weight: bold;
   border: none;
 }
 
@@ -100,24 +100,12 @@ li.navbar-item {
   width: 100px;
 }
 
-.button-img {
-  width: 25px;
-  height: 25px;
-}
-
-.button-img:hover {
-  content: url(images/button-hover.png);
-}
-
 a:visited {
   color: oldlace;
-  font-weight: bold;
-  border: none;
-  outline: none;
 }
 
 .current-location{
-  font-size: 1.5em;
+  font-size: 1.1em;
   color: #b6b224;
 }
 
@@ -137,7 +125,8 @@ a:visited {
 }
   /* BLOG STYLING */
   .blog-post {
-    background-image: url(/images/paperback.jpg);
+    /* background-image: url(/images/paperback.jpg); */
+    background-color: antiquewhite;
     box-shadow: 5px 5px 2px tan;
     padding: 10px;
     margin-bottom: 15px;
