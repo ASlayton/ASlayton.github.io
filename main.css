@@ -29,6 +29,7 @@ body {
 
 img {
   height: 100px;
+  display: inline-block;
 }
 
 
