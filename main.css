@@ -3,7 +3,7 @@ body {
   position: relative;
   background-color: oldlace;
   background-image: url(images/damask-937607.jpg);
-  background-size: cover;
+  /* background-size: cover; */
   padding: 0;
   margin: 0;
 }
@@ -18,12 +18,13 @@ body {
 .main-content-container {
   width: 60%;
   background-color: #fffff1;
-  box-shadow: 5px 5px 2px grey;
+  box-shadow: 5px 5px 10px lightgrey;
   margin: auto;
   display: block;
   position: relative;
-  margin-top: 150px;
+  margin-top: 120px;
   padding-bottom: 100px;
+  padding-left: 5px;
 }
 
 img {
@@ -79,7 +80,7 @@ nav ul li {
 
 .navbar-item a {
   text-decoration: none;
-  color: #7e687a;
+  color: oldlace;
 }
 
  li a:hover {
@@ -92,8 +93,17 @@ li.navbar-item {
   width: 100px;
 }
 
+.button-img {
+  width: 25px;
+  height: 25px;
+}
+
+.button-img:hover {
+  content: url(images/button-hover.png);
+}
+
 a:visited {
-  color: #7e687a;
+  color: oldlace;
   font-weight: bold;
   border: none;
   outline: none;
@@ -118,3 +128,20 @@ a:visited {
   color: #b6b220;
   font-weight: bold;  
 }
+  /* BLOG STYLING */
+  .blog-post {
+    background-image: url(/images/paperback.jpg);
+    box-shadow: 5px 5px 2px tan;
+    padding: 10px;
+    margin-bottom: 15px;
+    font-size: 1.2em;
+  }
+
+  .main-content-container-blog {
+    width: 60%;
+    margin: auto;
+    display: block;
+    position: relative;
+    margin-top: 120px;
+    padding-bottom: 100px;
+  }

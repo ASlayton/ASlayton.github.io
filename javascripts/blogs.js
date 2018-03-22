@@ -33,17 +33,17 @@ var blogs = [
     id: "blog5",
     title: "ES6",
     date: "Wednesday, 21 March 2018",
-    post: "Week 6 at NSS and this week I feel as though I have had a cookie handed to me and then had it slapped out of my hand. I know functions. I am comfortable with functions. It's simple. function mySuperCoolFunctionName(aParameter, anotherParameter){};  I can deal with that. But now they tell us to write it const mySuperCoolFunctionName = (aParameter, anotherParameter) => {};  GAH, NOW WHAT. I probably didn't even write my sample correctly. Once we break it down, it seems easier. Instead of using var to declare our variables, we are using let and const. Const is for variables that are not going to change ever, and let is used when the variable changes within a code block. Good bye, var, we'll miss you, except for those weird instances where we have to use you because nothing else works. Rather than declaring that we are using a function, we are creating a variable with that function name and setting it equal to a whatever it is that function would do. <br>So, you are still giving a spacer variable to pass through other variables, and the action that is being taken is still in the curly braces. I don't like the arrow. The first time I saw it, I read it as equal to or greater than, but that was wrong. It is an arrow, cuz some brilliant person decided to code using pictograms and emojis. I still don't see how writing it this way is in any way shape or form more useful or clearer than the other way we had been shown. Hopefully the reason will make itsself known as I use it. <br>We also changed up groups this week. So good-bye to The Semi-Solids (after our project demonstartion on Saturday of course), say hello to The Butterworts. Or The Bottom Warts as I think we decided to rename ourselves. I think I'm beginning to see a pattern develop in the names of the groups I'm assigned to... We'll see in five weeks."
+    post: "Week 6 at NSS and this week I feel as though I have had a cookie handed to me and then had it slapped out of my hand. I know functions. I am comfortable with functions. It's simple. function mySuperCoolFunctionName(aParameter, anotherParameter){};  I can deal with that. But now they tell us to write it const mySuperCoolFunctionName = (aParameter, anotherParameter) => {};  GAH, NOW WHAT. I probably didn't even write my sample correctly. Once we break it down, it seems easier. Instead of using var to declare our variables, we are using let and const. Const is for variables that are not going to change ever, and let is used when the variable changes within a code block. Good bye, var, we'll miss you, except for those weird instances where we have to use you because nothing else works. Rather than declaring that we are using a function, we are creating a variable with that function name and setting it equal to a whatever it is that function would do. <br>So, you are still giving a spacer variable to pass through other variables, and the action that is being taken is still in the curly braces. I don't like the arrow. The first time I saw it, I read it as equal to or greater than, but that was wrong. It is an arrow, cuz some brilliant person decided to code using pictograms. I still don't see how writing it this way is in any way shape or form more useful or clearer than the other way we had been shown. Hopefully the reason will make itsself known as I use it. <br>We also changed up groups this week. So good-bye to The Semi-Solids (after our project demonstartion on Saturday of course), say hello to The Butterworts. Or The Bottom Warts as I think we decided to rename ourselves. I think I'm beginning to see a pattern develop in the names of the groups I'm assigned to... We'll see in five weeks when groups get reassigned."
   }
 ];
 
 function createBlogPost(anArray){
   var createAString = "";
   for(var i = 0; i < anArray.length; i++){
-    createAString += "<article>";
-    createAString += "<h3>" + anArray[i].date + "<h3>";
-    createAString += "<h5>" + anArray[i].title + "<h5>";
-    createAString += "<p>" + anArray[i].post + "</p>";
+    createAString += "<article class='blog-post'>";
+    createAString += "<h3 class='blog-date'>" + anArray[i].date + "<h3>";
+    createAString += "<h5 class='blog-title'>" + anArray[i].title + "<h5>";
+    createAString += "<p class='blog-body'>" + anArray[i].post + "</p>";
     createAString += "</article>";
   };
   return createAString;
