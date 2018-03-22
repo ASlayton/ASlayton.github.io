@@ -62,6 +62,7 @@ footer {
 }
 .header-title {
   display: inline;
+  width: 90%;
 }
 /* NAVBAR STYLING */
 nav {
