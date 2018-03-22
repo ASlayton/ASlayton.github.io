@@ -60,7 +60,9 @@ footer {
 .header-img {
   width: 50px;
 }
-
+.header-title {
+  display: inline;
+}
 /* NAVBAR STYLING */
 nav {
   background-color: #97A686;
