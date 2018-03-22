@@ -56,7 +56,9 @@ footer {
   bottom: 0;
 }
 
-
+.header-img {
+  width: 50px;
+}
 
 /* NAVBAR STYLING */
 nav {
