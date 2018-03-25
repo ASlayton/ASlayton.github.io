@@ -1,15 +1,11 @@
 // BLOG JAVASCRIPT
-function writeToDom(myInnerds, placeToPutIt){
-  var myElement = document.getElementById(placeToPutIt);
-  myElement.innerHTML = myInnerds;
-};
 
 var blogs = [
   {
     id:   "blog1",
     title: "A beginning... of the end?!?!?",
     date: "Wednesday, 21 February 2018",
-    post: "Here we are in the middle of the second week of Evening Cohort 7 at Nashville Software School. Already I have learned a great deal and the trepidation I felt at the start of classes is starting to melt away. Coming into the course, I had some idea of what to expect from the Jumpstart course I had taken the year before, but still, people are continuously talking about how hard it is, how painful the next year is going to be, how little sleep we are going to have and so on and so on. So perhaps this is a false sense of hope, but I am feeling really good about this.</br> In the first couple days of the class, we ran through the basics of html and general structure of a webpage. I am feeling rather comfortable with that. It was one of the first things I had taught myself when I first started getting into web development. I had done the courses in codecademy.com and been through the jumpstart, and then did the treehouse courses. So, html is not a big deal. So far the biggest challenge with html is remembering to close all tags and whether to use href or src when linking files to the html document. CSS is another beast altogether. While I am slowly getting more comfortable with remembering what attributes to use, remembering the different positioning properties is difficult. I understand the basics of absolute, fixed, and relative positioning. However, in practice, to put this bluntly, this sucks. I swear, these properties only work while on school property, as soon as I get home, everything breaks. I return to the school, turn on the computer, hey look, it's working again. I don't know how to ask a question at this point, because there isn't a problem, I'm just losing my mind. Then we started learning Git Bash and git hub commands. This is virgin territory, so to speak. Treehouse covered this topic briefly, but those lessons were completely worthless without being able to actually do the thing they were teaching. The first couple of times I created a repo, I was lost. I typed letters into git bash and prayed it worked. Sometimes it did, sometimes it didn't. Now that I have had a chance to slow down and pick apart the different commands and actually utilize the tool, it's much more comfortable. I am by no means an expert, but if someone were to come up to me and start talking about it, I may actually be able to follow the conversation and hopefully add to it. I cannot begin to tell you how much just simple repetition has helped when it comes to learning the git commands. When I signed up for the program, the only true goal I had was to gain the knowledge necessary to make a career change, to get out of manufacturing, and into a job where I can actually make a difference. Now that I have been to a few classes, that desire has really blossomed. I can see the challenges that lay before me. This is going to hurt. But it will be so worth it in the end."
+    post: "Here we are in the middle of the second week of Evening Cohort 7 at Nashville Software School. Already I have learned a great deal and the trepidation I felt at the start of classes is starting to melt away. Coming into the course, I had some idea of what to expect from the Jumpstart course I had taken the year before, but still, people are continuously talking about how hard it is, how painful the next year is going to be, how little sleep we are going to have and so on and so on. So perhaps this is a false sense of hope, but I am feeling really good about this.<br> In the first couple days of the class, we ran through the basics of html and general structure of a webpage. I am feeling rather comfortable with that. It was one of the first things I had taught myself when I first started getting into web development. I had done the courses in codecademy.com and been through the jumpstart, and then did the treehouse courses. So, html is not a big deal. So far the biggest challenge with html is remembering to close all tags and whether to use href or src when linking files to the html document. CSS is another beast altogether. While I am slowly getting more comfortable with remembering what attributes to use, remembering the different positioning properties is difficult. I understand the basics of absolute, fixed, and relative positioning. However, in practice, to put this bluntly, this sucks. I swear, these properties only work while on school property, as soon as I get home, everything breaks. I return to the school, turn on the computer, hey look, it's working again. I don't know how to ask a question at this point, because there isn't a problem, I'm just losing my mind. Then we started learning Git Bash and git hub commands. This is virgin territory, so to speak. Treehouse covered this topic briefly, but those lessons were completely worthless without being able to actually do the thing they were teaching. The first couple of times I created a repo, I was lost. I typed letters into git bash and prayed it worked. Sometimes it did, sometimes it didn't. Now that I have had a chance to slow down and pick apart the different commands and actually utilize the tool, it's much more comfortable. I am by no means an expert, but if someone were to come up to me and start talking about it, I may actually be able to follow the conversation and hopefully add to it. I cannot begin to tell you how much just simple repetition has helped when it comes to learning the git commands. When I signed up for the program, the only true goal I had was to gain the knowledge necessary to make a career change, to get out of manufacturing, and into a job where I can actually make a difference. Now that I have been to a few classes, that desire has really blossomed. I can see the challenges that lay before me. This is going to hurt. But it will be so worth it in the end."
   },
   {
     id:   "blog2",
@@ -37,14 +33,14 @@ var blogs = [
   }
 ];
 
-function createBlogPost(anArray){
+const createBlogPost = (anArray) => {
   var createAString = "";
   for(var i = 0; i < anArray.length; i++){
-    createAString += "<article class='blog-post'>";
-    createAString += "<h3 class='blog-date'>" + anArray[i].date + "<h3>";
-    createAString += "<h5 class='blog-title'>" + anArray[i].title + "<h5>";
-    createAString += "<p class='blog-body'>" + anArray[i].post + "</p>";
-    createAString += "</article>";
+    createAString += `<article class='blog-post'>`;
+    createAString += `<h3 class='blog-date'>${anArray[i].date}<h3>`;
+    createAString += `<h5 class='blog-title'>${anArray[i].title}<h5>`;
+    createAString += `<p class='blog-body'>${anArray[i].post}</p>`;
+    createAString += `</article>`;
   };
   return createAString;
 };

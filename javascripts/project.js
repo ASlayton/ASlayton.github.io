@@ -1,10 +1,7 @@
-function writeToDom(myInnerds, placeToPutIt){
-  var myElement = document.getElementById(placeToPutIt);
-  myElement.innerHTML = myInnerds;
-};
+//Projects JS
 
 
-var projectArray = [
+const projectArray = [
   {
     imageURL:    "/images/ayeaye.jpg",
     altText:     "Aye Aye Captain",
@@ -49,19 +46,18 @@ var projectArray = [
   }
 ];
 
-function createProjectPage(arrayOfProjects){
-  var createAString = "";
-  for(var i = 0; i < arrayOfProjects.length; i++){
-    createAString += "<article>";
-    createAString += "<div class ='project-container'>";
-    createAString += "<img src='" +  arrayOfProjects[i].imageURL + "' alt='" + arrayOfProjects[i].altText + "'>";
-    createAString += "<h3 class='project-title'>" + arrayOfProjects[i].title + "</h3>";
-    createAString += "<p class='project-description'>" + arrayOfProjects[i].description + "</p>";
-    createAString += "<a href='" + arrayOfProjects[i].linkToPage + "'>Click Here for more info! </a>";
-    createAString += "</div>";
-    createAString += "</article>";
+const createProjectPage = (arrayOfProjects) => {
+  let createAString = "";
+  for(let i = 0; i < arrayOfProjects.length; i++){
+    createAString += `<article>`;
+    createAString += `<div class ='project-container'>`;
+    createAString += `<img src='${arrayOfProjects[i].imageURL}' alt='${arrayOfProjects[i].altText}'>`;
+    createAString += `<h3 class='project-title'>${arrayOfProjects[i].title}</h3>`;
+    createAString += `<p class='project-description'>${arrayOfProjects[i].description}</p>`;
+    createAString += `<a href='${arrayOfProjects[i].linkToPage}'>Click Here for more info!</a>`;
+    createAString += `</div>`;
+    createAString += `</article>`;
   };
-  console.log(createAString);
   return createAString;
 };
 

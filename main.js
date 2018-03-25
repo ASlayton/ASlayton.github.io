@@ -16,7 +16,7 @@ myHeader();
 const navbarElements = [
   {
     title: "Home",
-    link:  "index.html"
+    link:  "/index.html"
   },
   {
     title: "Blogs",
