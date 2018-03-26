@@ -36,7 +36,7 @@ const navbarElements = [
   },
   {
     title: "Fun Fact",
-    link:  "/funFact.html"
+    link:  "/html/funFact.html"
   }
 ];
 
@@ -59,3 +59,21 @@ myNavbar(navbarElements);
   };
 
 myFooter();
+
+
+//DETERMINE CURRENT PAGE
+
+const pickAPage = () => {
+  let myCurrentPageTitle = document.title;
+  let page = myCurrentTitle.split(" ").pop();
+
+  if(page === "Home"){
+
+  }else if (page === "Blog"){
+
+  }else if(page === "Resume"){
+
+  }else if(page === "") {
+
+  };
+};
