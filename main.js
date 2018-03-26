@@ -36,7 +36,7 @@ const navbarElements = [
   },
   {
     title: "Fun Fact",
-    link:  "/html/funfact.html"
+    link:  "/html/funFact.html"
   }
 ];
 
