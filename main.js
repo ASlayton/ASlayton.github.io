@@ -41,7 +41,7 @@ const navbarElements = [
 ];
 
 const myNavbar = (myArray) => {
-  let navbarInnerds = `<nav><ul class='navbar'>`;
+  let navbarInnerds = `<nav><ul class='navbar' id='nav-ul'>`;
     myArray.forEach((element) => {
       navbarInnerds += `<li class='navbar-item'><a href='${element.link}'>${element.title}</a></li>`;
     });
@@ -65,15 +65,27 @@ myFooter();
 
 const pickAPage = () => {
   let myCurrentPageTitle = document.title;
-  let page = myCurrentTitle.split(" ").pop();
+  let page = myCurrentPageTitle.split(" ").pop();
 
   if(page === "Home"){
-
+    let currentNavLocation = document.getElementById("nav-ul").children[0].children[0];
+    currentNavLocation.classList.add("current-location");
   }else if (page === "Blog"){
-
-  }else if(page === "Resume"){
-
-  }else if(page === "") {
-
+    let currentNavLocation = document.getElementById("nav-ul").children[1].children[0];
+    currentNavLocation.classList.add("current-location");
+  }else if (page === "Resume"){
+    let currentNavLocation = document.getElementById("nav-ul").children[2].children[0];
+    currentNavLocation.classList.add("current-location");
+  }else if (page === "Contact") {
+    let currentNavLocation = document.getElementById("nav-ul").children[3].children[0];
+    currentNavLocation.classList.add("current-location");
+  }else if (page === "Fact") {
+    let currentNavLocation = document.getElementById("nav-ul").children[4].children[0];
+    currentNavLocation.classList.add("current-location");
+  }else if (page === "Projects"){
+    let currentNavLocation = document.getElementById("nav-ul").children[5].children[0];
+    currentNavLocation.classList.add("current-location");
   };
 };
+
+pickAPage();
