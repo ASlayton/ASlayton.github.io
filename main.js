@@ -36,12 +36,12 @@ const navbarElements = [
   },
   {
     title: "Fun Fact",
-    link:  "/funFact.html"
+    link:  "/html/funFact.html"
   }
 ];
 
 const myNavbar = (myArray) => {
-  let navbarInnerds = `<nav><ul class='navbar'>`;
+  let navbarInnerds = `<nav><ul class='navbar' id='nav-ul'>`;
     myArray.forEach((element) => {
       navbarInnerds += `<li class='navbar-item'><a href='${element.link}'>${element.title}</a></li>`;
     });
