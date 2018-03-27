@@ -59,33 +59,3 @@ myNavbar(navbarElements);
   };
 
 myFooter();
-
-
-//DETERMINE CURRENT PAGE
-
-const pickAPage = () => {
-  let myCurrentPageTitle = document.title;
-  let page = myCurrentPageTitle.split(" ").pop();
-
-  if(page === "Home"){
-    let currentNavLocation = document.getElementById("nav-ul").children[0].children[0];
-    currentNavLocation.classList.add("current-location");
-  }else if (page === "Blog"){
-    let currentNavLocation = document.getElementById("nav-ul").children[1].children[0];
-    currentNavLocation.classList.add("current-location");
-  }else if (page === "Resume"){
-    let currentNavLocation = document.getElementById("nav-ul").children[2].children[0];
-    currentNavLocation.classList.add("current-location");
-  }else if (page === "Contact") {
-    let currentNavLocation = document.getElementById("nav-ul").children[3].children[0];
-    currentNavLocation.classList.add("current-location");
-  }else if (page === "Fact") {
-    let currentNavLocation = document.getElementById("nav-ul").children[4].children[0];
-    currentNavLocation.classList.add("current-location");
-  }else if (page === "Projects"){
-    let currentNavLocation = document.getElementById("nav-ul").children[5].children[0];
-    currentNavLocation.classList.add("current-location");
-  };
-};
-
-pickAPage();
