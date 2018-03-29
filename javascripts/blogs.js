@@ -1,7 +1,7 @@
 // BLOG JAVASCRIPT
 
 const createBlogPost = (anArray) => {
-  var createAString = "";
+  let createAString = "";
   for(var i = 0; i < anArray.length; i++){
     createAString += `<article class='blog-post'>`;
     createAString += `<h3 class='blog-date'>${anArray[i].date}<h3>`;
