@@ -15,7 +15,21 @@ const createProjectPage = (arrayOfProjects) => {
   return createAString;
 };
 
+function ifProjectsFails(){
+  console.log("Mistakes were made");
+};
 
+function ifProjectsLoads(){
+  const myProjectData = JSON.parse(this.responseText);
+  writeToDom(createProjectPage(myProjectData.projectArray),"project-main-container");
+};
 
+function startprojectsJS(){
+  let myPRequest = new XMLHttpRequest();
+  myPRequest.addEventListener('load', ifProjectsLoads);
+  myPRequest.addEventListener('error', ifProjectsFails);
+  myPRequest.open("GET", "../db/projects.json");
+  myPRequest.send();
+};
 
-writeToDom(createProjectPage(projectArray),"project-main-container");
+startprojectsJS();
