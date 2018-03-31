@@ -35,6 +35,12 @@
       "title": "XHR Requests",
       "date": "Thursday, 29 march 2018",
       "post": "It is Week 7 and as you can tell by the title, we discussed XHR Requests. In class I felt as though I had no idea what was going on (Yes, I realize this is an ongoing theme with me), but once again, now that I am by myself and have had a chance to pick it apart, it makes sense. I am by no means an expert and it is going to be a project or two into it before I feel completly comfortable with it, but it's all good.  All it really is doing is connecting a data page to your current project and setting it up so that you can see and use it. Believe it or not, I still really like javascript and I have started doing other little projects on the side to help reinforce some of these concepts we have been talking about. I also started getting into CodeWars a little bit. Unfortunatly, that site does not work on my work computer reliably, so I've been prowling Stack Overflow the way I used to prowl reddit during my lunch and breaks. I'm not at the point where I can actually help anyone, but soon..."
+    },
+    {
+      "id": "blog7",
+      "title": "I lied",
+      "date": "Saturday, 31 March 2018",
+      "post": "Ok, well, I thought I understood XHR Requests. I did the assignment given to us. It worked and it worked well. And then they said we were supposed to do it using 2 xhr requests to the same document. Which doesn't make any sense because why would you do that when you already have the data? And there doesn't seem to be any way to pass an event target into the damned thing. Everything I'm reading on stack overflow etc says this is the wrong way to do this thing. Then I get into it and tearing it apart, and each line that I am writing is turning into some bizarre language and I now know less than I did coming in and I need sleep and a few aspirin.... or a lot more coffee. I have another hour of sitting here pretending that this shit makes sense."
     }
   ]  
 }
