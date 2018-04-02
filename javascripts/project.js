@@ -5,7 +5,7 @@ const createProjectPage = (arrayOfProjects) => {
   for(let i = 0; i < arrayOfProjects.length; i++){
     createAString += `<article>`;
     createAString += `<div class ='project-container'>`;
-    createAString += `<img src='thumbtack.png' alt='thumbtack' class='thumbtack'>`;
+    createAString += `<img src='/images/thumbtack.png' alt='thumbtack' class='thumbtack'>`;
     createAString += `<img src='${arrayOfProjects[i].imageURL}' alt='${arrayOfProjects[i].altText}'>`;
     createAString += `<h3 class='project-title'>${arrayOfProjects[i].title}</h3>`;
     createAString += `<p class='project-description'>${arrayOfProjects[i].description}</p>`;
