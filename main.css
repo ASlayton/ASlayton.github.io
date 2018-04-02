@@ -32,7 +32,10 @@ img {
   display: inline;
 }
 
-
+.thumbtack {
+  position: absolute;
+  width: 25%;
+}
 
 /* HEADER & FOOTER STYLING */
 
