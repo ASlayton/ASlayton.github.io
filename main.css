@@ -35,8 +35,7 @@ img {
 .thumbtack {
   position: absolute;
   right: 0px;
-  width: 25px;
-  height: 25px;
+  width: 15%;
 }
 
 /* HEADER & FOOTER STYLING */
