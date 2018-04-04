@@ -35,6 +35,12 @@
       "title": "XHR Requests",
       "date": "Thursday, 29 march 2018",
       "post": "It is Week 7 and as you can tell by the title, we discussed XHR Requests. In class I felt as though I had no idea what was going on (Yes, I realize this is an ongoing theme with me), but once again, now that I am by myself and have had a chance to pick it apart, it makes sense. I am by no means an expert and it is going to be a project or two into it before I feel completly comfortable with it, but it's all good.  All it really is doing is connecting a data page to your current project and setting it up so that you can see and use it. Believe it or not, I still really like javascript and I have started doing other little projects on the side to help reinforce some of these concepts we have been talking about. I also started getting into CodeWars a little bit. Unfortunatly, that site does not work on my work computer reliably, so I've been prowling Stack Overflow the way I used to prowl reddit during my lunch and breaks. I'm not at the point where I can actually help anyone, but soon..."
+    },
+    {
+      "id": "blog7",
+      "title": "I lied",
+      "date": "Saturday, 31 March 2018",
+      "post": "It is week 8 and we are diving deeper into XHR requests. Sadly, I am not as confidant as I was last week. We had an assignment to call elements from a JSON file and then use different functions to manipulate those elements. I did the assignment and was very proud of myself, but then we came in that Saturday and they mentioned that we were supposed t have done it using two seperate JSON calls. That threw me for a loop. So now I have to go back in and redo the assignment. Only two of the functions I had written for that assignment are salvagable. Somehow I need to pass data through an event listener. I don't know. If I had just twenty minutes of uninteruppted thought I would have this in the bag, but as it is, my children will not leave me alone for that long. It is as though I have a light that shines everytime I start doing something that draws them to me like moths. I can't go somewhere else either, public places are too noisy and uncomfortable and the library doesn't have hours that make sense."
     }
   ]  
 }
