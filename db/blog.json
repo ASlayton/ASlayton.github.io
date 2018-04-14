@@ -41,6 +41,18 @@
       "title": "I lied",
       "date": "Saturday, 31 March 2018",
       "post": "It is week 8 and we are diving deeper into XHR requests. Sadly, I am not as confidant as I was last week. We had an assignment to call elements from a JSON file and then use different functions to manipulate those elements. I did the assignment and was very proud of myself, but then we came in that Saturday and they mentioned that we were supposed t have done it using two seperate JSON calls. That threw me for a loop. So now I have to go back in and redo the assignment. Only two of the functions I had written for that assignment are salvagable. Somehow I need to pass data through an event listener. I don't know. If I had just twenty minutes of uninteruppted thought I would have this in the bag, but as it is, my children will not leave me alone for that long. It is as though I have a light that shines everytime I start doing something that draws them to me like moths. I can't go somewhere else either, public places are too noisy and uncomfortable and the library doesn't have hours that make sense."
+    },
+    {
+      "id": "blog8",
+      "title": "An uncomfortable place",
+      "date": "Tuesday, April 10, 2018",
+      "post": "I had a major problem last week that has left me behind and full of more questions than I know how to ask. Not that it would matter. The instructors are so busy with people that are further behind than me and I don't know how to ask the questions that are tumbling around inside my head. I was having a CORS issue pop up, blocking all of my XHR requests when I tried to call a bit of data off of the treehouse website. I wasted a week bashing my head against this issue. The instructors could not help me. It was not a network issue, it was not a windows issue. It all boiled down to my code, but I could not figure out where it was going wrong. I installed a plugin to chrome that helped most of the time, but still, this was not an issue I should have been having; not at this point anyway. I rewrote the project on 3 seperate occasions and then I noticed- when I copied and pasted a URL from the address bar, it added more characters than I could see. Where my address should have been https://teamtreehouse.com/amandaslayton.json, it was pasting https://www.teamtreehouse.com/amandaslayton.json. Such a stupid little thing and it was a wonder I noticed it at all. Now I know not to trust copy/paste. EVER. Once I solved that issue, I completed the project within a couple of hours. It was not as hard as I was making it out to be."
+    },
+    {
+      "id": "blog9",
+      "title": "Is that a light I see?",
+      "date": "Saturday, April 14, 2018",
+      "post": "I took a walk by myself on the trail around Couchville Lake. No children, no family, just me. It was quiet, and it was amazing. For the first time in what feels like years I had a chance to breathe and to commune with nature- as much nature as you are able to see on that trail anyway. I sat on a rock by the water, listening. I heard several species of birds, and the lapping of the waves on the jagged rocks poking out of the water, and the creaking and groaning of the trees as they began thier springtime awakening. Even though everything appeared to be still in the grips of winter and not a living thing was to seen, there were signs of new life everywhere. <br> Then it was back to reality and my responsibilities, but nothing felt so crushing as it had. I need to take more breaks like that, to return to my me."
     }
   ]  
 }
