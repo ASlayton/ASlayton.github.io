@@ -1,0 +1,43 @@
+* {
+  /* border-radius: 0 !important; */
+  border: none !important;
+}
+
+body {
+  background-image: url(/images/damask-937607.jpg);
+}
+
+.navbar, a {
+  background-color: #7e687a;
+  color: oldlace !important;
+}
+
+a:hover {
+  color: #97A686 !important;
+}
+
+.spacer {
+  background-color:  #97A686;
+  height: 10px;
+  width: 100%;
+  margin: 0;
+}
+
+#head-space {
+  position: absolute;
+  top: 50px;
+}
+
+#foot-space {
+  position: absolute;
+  bottom: 50px;
+}
+
+#profilePic {
+  height: 300px;
+  border-radius: 50%;
+}
+
+#page-content-wrapper {
+  margin-top: 50px;
+}
