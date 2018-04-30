@@ -1,0 +1,69 @@
+{
+  "jobs": [
+    {
+      "name": "McDonald's",
+      "startDate": "2004",
+      "endDate": "2005",
+      "title": "Associate",
+      "responsibility": [
+        "Maintain cash drawer",
+        "Prepare customer orders in timely manner",
+        "Answer and address customer needs and complaints",
+        "Plan and prepare children's birthday parties",
+        "Maintain clean and safe work environment"
+      ]
+    },
+    {
+      "name": "Kroger",
+      "startDate": "2005",
+      "endDate": "2005",
+      "title": "Cashier",
+      "responsibility": [
+        "Maintain cash drawer",
+        "Address customer needs and requests",
+        "Maintain clean and safe work environment"
+      ]
+    },
+    {
+      "name": "Walmart",
+      "startDate": "2006",
+      "endDate": "2008",
+      "title": "Cashier",
+      "responsibility": [
+        "Maintain cash drawer",
+        "Address customer needs and requests",
+        "Maintain clean and safe work environment"
+      ]
+    },
+    {
+      "name": "Select Staffing @ Quanta Computer",
+      "startDate": "2008",
+      "endDate": "2008",
+      "title": "Level One Associate",
+      "responsibility": [
+        "Diagnose and troubleshoot HP laptops according to customer complaints",
+        "Replace component parts within the laptop as needed",
+        "Maintain records pertaining to the diagnosis and repair work"
+      ]
+    },
+    {
+      "name": "Onin Staffing @ Feintool Tennessee",
+      "startDate": "2008",
+      "endDate": "2010",
+      "title": "Sorter",
+      "responsibility": [
+        "Follow work"
+      ]
+    },
+    {
+      "name": "Feintool Tennessee",
+      "startDate": "2010",
+      "endDate": "Present",
+      "title": "Quality Associate",
+      "responsibility": [
+        "Operate CMM to measure parts",
+        "Follow work instructions and company standards to inspect incoming and outgoing materials and parts."
+      ]
+    }
+  ]
+}

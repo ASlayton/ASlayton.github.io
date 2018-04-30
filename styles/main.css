@@ -41,3 +41,7 @@ a:hover {
 #page-content-wrapper {
   margin-top: 50px;
 }
+
+.selected-page {
+  text-decoration: underline;
+}
