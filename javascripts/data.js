@@ -3,15 +3,15 @@ let projectArray = [];
 let jobArray = [];
 
 const setBlogData = (dataArray) => {
-  blogArray = dataArray;
+  blogArray = dataArray.blogs;
 };
 
 const setProjectData = (dataArray) => {
-  projectArray = dataArray;
+  projectArray = dataArray.projectArray;
 };
 
 const setJobData = (dataArray) => {
-  jobArray = dataArray;
+  jobArray = dataArray.jobs;
 };
 
 const getBlogData = (dataArray) => {
