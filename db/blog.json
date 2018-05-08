@@ -62,9 +62,9 @@
     },
     {
       "id": "blog11",
-      "title": "Ugh, here we go again.",
+      "title": "jQuery",
       "date": "Saturday, May 5, 2018",
-      "post":  "We have started on jQuery. It's basically a shortcut to just about everything we have done so far. I thought I was good, but actually using it, I realize I have no idea what is happening. My code is going insane and it doesn't help that I feel sick to my stomach and I keep having hot flashes and the noise level in the room is ridiculous. These lab weekends are pointless and I am left wondering why the hell I am paying to sit in a room and not do work because the moment anyone opens thier mouth, I lose all train of thought and I have to start at the beginning again. I do better at home. At least there I am used to the gentle roar of the kids and can get through my work. Seriously, I would be better off if I just left now."
+      "post":  "We have started on jQuery. I feel relieved to get to this point. Things that took me a few minutes to work through with vanilla javascript have methods that can be written in a second and don't use as much resources. Now I just have to do the research and get familiar with the tools that we have been given. I don't want to use jQuery exclusively, though. Without practice I am afraid of losing what I have learned thus far. <br> This week is 'spring' break at the school. I am glad for the chance to look back at some of the things I have done and fix some of the mistakes I know I have made. And for the chance to catch on sleep. The past three weeks have been siphoning every last bit of energy I have to spare and I know the coming weeks are going to take even more of a toll. But I keep telling myself that relief is just beyond the horizon, I just gotta hold on to my sanity just a touch longer."
     }
   ]
 }
