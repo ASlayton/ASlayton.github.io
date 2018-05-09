@@ -1,44 +1,24 @@
-const xhr = require('./xhr');
+const ajaxFunction = require('./xhr');
 const data = require('./data');
-const blog = require('./blog');
+const events = require('./events');
 
 const startApplication = () => {
-  console.log('Im being called');
-  xhr(whenBlogsLoad, ifFileFails, './db/blog.json');
-  xhr(whenProjectsLoad, ifFileFails, './db/projects.json');
-  xhr(whenJobsLoads, ifFileFails, './db/jobs.json');
-  attachEventListeners();
+  console.log('I have gotten this far.');
+  ajaxFunction('/db/blogs.json', loadBlog, onFileLoadError);
+  ajaxFunction('/db/projects.json', loadProjects, onFileLoadError);
+  events.attachEventHandler();
 };
 
-const attachEventListeners = () => {
-  document.getElementById('blog-btn').addEventListener('click', blog.buildBlog);
-  // document.getElementById('project-btn').addEventListener('click', );
-  // document.getElementById('contact-btn').addEventListener('click', );
-  // document.getElementById('resume-btn').addEventListener('click', );
-  // document.getElementById('funFact-btn').addEventListener('click', );
-};
-
-const whenBlogsLoad = function () {
-  const myData = JSON.parse(this.responseText);
-  data.setBlogData(myData);
-  const varExists = document.getElementById('blog-container');
-  if (varExists !== null) {
-    blog.buildBlog();
-  };
-};
-
-const whenProjectsLoad = function () {
-  const myData = JSON.parse(this.responseText);
-  data.setProjectData(myData);
-};
-
-const whenJobsLoads = function () {
-  const myData = JSON.parse(this.responseText);
-  data.setJobData(myData);
-};
-
-const ifFileFails = function () {
+const onFileLoadError = () => {
   console.error('I have failed you, my friend.');
+};
+
+const loadBlog = (dataArray) => {
+  data.setBlogData(dataArray);
+};
+
+const loadProjects = (dataArray) => {
+  data.setProjectData(dataArray);
 };
 
 module.exports = startApplication;

@@ -1,17 +1,16 @@
-const writeToDom = require('./writeToDom');
-const data = require('./data');
+const blogData = require('./data');
 
 const buildBlog = () => {
-  const blogPosts = data.getBlogData();
+  const blogDataArray = blogData.getBlogData();
   let domString = '';
-  blogPosts.forEach((post) => {
+  blogDataArray.forEach((post) => {
     domString += `<div class='blog-post-container'>`;
-    domString += `<h4>${blogPosts.date}</h4>`;
-    domString += `<h3>${blogPosts.title}</h3>`;
-    domString += `<p>${blogPosts.post}</p>`;
+    domString += `<h3 col-md-6>${post.title}</h3>`;
+    domString += `<h4 col-md-6 text-right>${post.date}</h4>`;
+    domString += `<p>${post.post}</p>`;
     domString += `</div>`;
   });
-  writeToDom(domString, 'blog-container');
+  return domString;
 };
 
 module.exports = buildBlog;
