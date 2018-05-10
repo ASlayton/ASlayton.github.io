@@ -3,14 +3,13 @@ const data = require('./data');
 const events = require('./events');
 
 const startApplication = () => {
-  console.log('I have gotten this far.');
-  ajaxFunction('/db/blogs.json', loadBlog, onFileLoadError);
-  ajaxFunction('/db/projects.json', loadProjects, onFileLoadError);
+  ajaxFunction(loadBlog, onFileLoadError, './db/blog.json');
+  ajaxFunction(loadProjects, onFileLoadError, './db/projects.json');
   events.attachEventHandler();
 };
 
 const onFileLoadError = () => {
-  console.error('I have failed you, my friend.');
+  console.log('error');
 };
 
 const loadBlog = (dataArray) => {

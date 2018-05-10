@@ -1,13 +1,21 @@
 const blogData = require('./blog');
+const projectData = require('./projects');
 
 const attachEventHandler = () => {
-  console.log('I have gotten this far.');
   $('#blog-btn').on('click', writeBlogs);
+  $('#project-btn').on('click', writeProjects);
 };
 
 const writeBlogs = () => {
-  console.log('button has been pressed');
-  $('#place-content-here').append(blogData.buildBlog());
+  $('#blog-content').append(blogData.buildBlog()).show();
+  $('#main-content, #project-content').hide();
 };
 
-module.exports = attachEventHandler;
+const writeProjects = () => {
+  $('#project-content').append(projectData.buildProjects()).show();
+  $('#main-content, #blog-content').hide();
+};
+
+module.exports = {
+  attachEventHandler,
+};

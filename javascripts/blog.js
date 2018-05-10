@@ -13,4 +13,6 @@ const buildBlog = () => {
   return domString;
 };
 
-module.exports = buildBlog;
+module.exports = {
+  buildBlog,
+};
