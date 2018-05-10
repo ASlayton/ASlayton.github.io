@@ -26,11 +26,11 @@
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
           <ul class="nav navbar-nav navbar-right">
-            <li class="custom-style"><a href="/html/blog.html">Blog</a></li>
-            <li class="custom-style"><a href="/html/projects.html">Project Portfolio</a></li>
-            <li class="custom-style"><a href="/html/contact.html">Contact Me</a></li>
-            <li class="custom-style"><a href="/html/resume.html">Professional History</a></li>
-            <li class="custom-style"><a href="/html/funFact.html">FunFact</a></li>
+            <li class="custom-style" id='blog-btn'><a href="#">Blog</a></li>
+            <li class="custom-style" id='project-btn'><a href="#">Project Portfolio</a></li>
+            <li class="custom-style" id='contact-btn'><a href="#">Contact Me</a></li>
+            <li class="custom-style" id='resume-btn'><a href="#">Professional History</a></li>
+            <li class="custom-style" id='funFact-btn'><a href="#">FunFact</a></li>
           </ul>
         </div><!-- /.navbar-collapse -->
       </div><!-- /.container-fluid -->
@@ -38,30 +38,33 @@
     <p class="spacer" id="head-space"></p>
 <!-- MAIN BODY -->
     <div id="page-content-wrapper" class="col-md-10 col-md-offset-1">
-      <div class="col-md-6 text-center">
-        <img src="/images/aslayton.jpg" alt="Amanda Slayton Profile Picture" id="profilePic">
+      <div id="main-content">
+        <div class="col-md-6 text-center">
+          <img src="/images/aslayton.jpg" alt="Amanda Slayton Profile Picture" id="profilePic">
+        </div>
+        <div class="col-md-6">
+          <h3>About Me:</h3>
+          <p>Amanda Slayton is a full-time quality associate of Feintool Tennessee, full-time wife and mother, and current student at Nashville Software School. When she has a moment of free time, her favorite activities are reading, taking walks and gaming.</p>
+        </div>
       </div>
-      <div class="col-md-6">
-        <h3>About Me:</h3>
-        <p>Amanda Slayton is a full-time quality associate of Feintool Tennessee, full-time wife and mother, and current student at Nashville Software School. When she has a moment of free time, her favorite activities are reading, walking her dog, Molly, and knitting.</p>
-      </div>
+      <div id="blog-content"></div>
+      <div id="project-content"></div>
     </div>
 
-
 <!-- FOOTER  -->
-    <p class="spacer" id="foot-space"></p>
-    <nav class="navbar navbar-inverse navbar-fixed-bottom">
 
+    <nav class="navbar navbar-inverse navbar-fixed-bottom">
+      <p class="spacer navbar-fixed-bottom" id="foot-space"></p>
         <div class="container text-right">
           <p>&copy;A.Slayton - OnlySomewhat 2018</p>
         </div>
     </nav>
 
-    <script
-    src="https://code.jquery.com/jquery-3.3.1.min.js"
-    integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
-    crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-  <style src="dist/app.js"></style>
+  <script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+  <script src="/dist/app.js"></script>
 </body>
 </html>

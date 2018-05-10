@@ -5,6 +5,7 @@
 
 body {
   background-image: url(/images/damask-937607.jpg);
+  background-attachment: fixed;
 }
 
 .navbar, a {
@@ -44,4 +45,9 @@ a:hover {
 
 .selected-page {
   text-decoration: underline;
+}
+
+.blog-post-container:last-child,
+.project-container:last-child {
+  margin-bottom: 70px;
 }

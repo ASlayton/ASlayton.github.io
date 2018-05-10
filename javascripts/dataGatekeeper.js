@@ -1,29 +1,23 @@
-const xhr = require('./xhr');
+const ajaxFunction = require('./xhr');
 const data = require('./data');
+const events = require('./events');
 
 const startApplication = () => {
-  xhr(whenBlogsLoad, ifFileFails, './db/blog.json');
-  xhr(whenProjectsLoad, ifFileFails, './db/projects.json');
-  xhr(whenJobsLoads, ifFileFails, './db/jobs.json');
+  ajaxFunction(loadBlog, onFileLoadError, './db/blog.json');
+  ajaxFunction(loadProjects, onFileLoadError, './db/projects.json');
+  events.attachEventHandler();
 };
 
-const whenBlogsLoad = function () {
-  const myData = JSON.parse(this.responseText);
-  data.setBlogData(myData);
+const onFileLoadError = () => {
+  console.log('error');
 };
 
-const whenProjectsLoad = function () {
-  const myData = JSON.parse(this.responseText);
-  data.setProjectData(myData);
+const loadBlog = (dataArray) => {
+  data.setBlogData(dataArray);
 };
 
-const whenJobsLoads = function () {
-  const myData = JSON.parse(this.responseText);
-  data.setJobData(myData);
-};
-
-const ifFileFails = function () {
-  console.error('I have failed you, my friend.');
+const loadProjects = (dataArray) => {
+  data.setProjectData(dataArray);
 };
 
 module.exports = startApplication;
