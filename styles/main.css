@@ -47,6 +47,7 @@ a:hover {
   text-decoration: underline;
 }
 
+.job-container:last-child,
 .blog-post-container:last-child,
 .project-container:last-child {
   margin-bottom: 70px;
