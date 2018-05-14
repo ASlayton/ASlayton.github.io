@@ -47,8 +47,28 @@ a:hover {
   text-decoration: underline;
 }
 
-.job-container:last-child,
-.blog-post-container:last-child,
-.project-container:last-child {
+#page-content-wrapper {
   margin-bottom: 70px;
+}
+
+.contact-img {
+  width: 28px;
+}
+
+.project-img {
+  width: 100%;
+  height-max: 460px;
+}
+
+.project-container {
+  height: 650px;
+  margin: 5px;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.panel-heading, .panel-footer {
+  width: 100%;
+  padding-left: 0;
+  padding-right: 0;
 }
