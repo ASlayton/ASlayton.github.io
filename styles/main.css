@@ -41,14 +41,37 @@ a:hover {
 
 #page-content-wrapper {
   margin-top: 50px;
+  margin-bottom: 70px;
+  padding-left: 0;
+  padding-right: 0;
 }
 
 .selected-page {
   text-decoration: underline;
 }
 
-.job-container:last-child,
-.blog-post-container:last-child,
-.project-container:last-child {
-  margin-bottom: 70px;
+.contact-img {
+  width: 28px;
+}
+
+.project-img {
+  width: 100%;
+  max-height: 200px;
+}
+
+.project-container {
+  height: 400px;
+  margin: 5px;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.panel-heading, .panel-footer {
+  width: 100%;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.panel-body p {
+  height: 80px;
 }
