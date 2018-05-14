@@ -41,14 +41,13 @@ a:hover {
 
 #page-content-wrapper {
   margin-top: 50px;
+  margin-bottom: 70px;
+  padding-left: 0;
+  padding-right: 0;
 }
 
 .selected-page {
   text-decoration: underline;
-}
-
-#page-content-wrapper {
-  margin-bottom: 70px;
 }
 
 .contact-img {
@@ -57,11 +56,11 @@ a:hover {
 
 .project-img {
   width: 100%;
-  height-max: 460px;
+  max-height: 200px;
 }
 
 .project-container {
-  height: 650px;
+  height: 400px;
   margin: 5px;
   padding-left: 0;
   padding-right: 0;
@@ -71,4 +70,8 @@ a:hover {
   width: 100%;
   padding-left: 0;
   padding-right: 0;
+}
+
+.panel-body p {
+  height: 80px;
 }
