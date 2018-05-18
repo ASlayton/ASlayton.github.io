@@ -71,6 +71,12 @@
       "title": "jQuery",
       "date": "Saturday, May 5, 2018",
       "post":  "We have started on jQuery. I feel relieved to get to this point. Things that took me a few minutes to work through with vanilla javascript have methods that can be written in a second and don't use as much resources. Now I just have to do the research and get familiar with the tools that we have been given. I don't want to use jQuery exclusively, though. Without practice I am afraid of losing what I have learned thus far. <br> This week is 'spring' break at the school. I am glad for the chance to look back at some of the things I have done and fix some of the mistakes I know I have made. And for the chance to catch on sleep. The past three weeks have been siphoning every last bit of energy I have to spare and I know the coming weeks are going to take even more ofa/ a toll. But I keep telling myself that relief is just beyond the horizon, I just gotta hold on to my sanity just a touch longer."
+    },
+    {
+      "id": "blog12",
+      "title": "Javascript Promises",
+      "date": "Thursday, May 17, 2018",
+      "post": "We have started working on Javascript promises. And so far, all I have learned how to do is break them. I do not understand what or why we are doing this or how this is supposed to help in any way. For whatever reason, we started a code-along and completed the simple part and then the instructor finished the exercise on her own and let us see it and that was supposed to make sense somehow? I don't know. This week has been one blow after another and I want to crawl into a corner and cry. About halfway through the lecture on Monday I recieved a call saying my grandfather had had a heartattack. I knew it was bad. By the time I got home that night, I overheard my mom get the news that he had passed. Tuesday was a blur. I should not have come to class, but I did. And now I do not remember it at all. Then yesterday my boss mentioned that he wanted me to apply for the quality engineer position; if I wanted the job, it was mine. If I take that position, I have to quit NSS. So I have a choice to make, NSS and a career that I may or may not be successful at, or a steady job that I cannot stand. Today I told them that I was not interested in the position. I really hope I made the right decision. Right now, looking at the coding I have just written, I am not sure."
     }
   ]
 }
