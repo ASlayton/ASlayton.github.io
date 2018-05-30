@@ -83,6 +83,12 @@
       "title": "API",
       "date": "Tuesday, May 29, 2018",
       "post": "We have started working with API's and firebase. So far, so good. I'm liking the fact that I don't have to write humongous JSON files, there are already some in place that I can use. The main challenge is going to be finding ones that are free and then finding the documentation that supports them. Most of the documents I have looked at are not geared towards beginners and involve more research than I have time for at the moment. But it's fine. I'll figure it out. The only way to become good at this is to be a beginner... and research, lots of research."
+    },
+    {
+      "id": "blog14",
+      "title": "Firebase",
+      "date": "Wednesday, May 30, 2018",
+      "post": "Make way for firebase. Now that we have gone over promises, it is time to start mocking databases- and I do not mean mock as in make fun of, although that could be a thing. Firebase is the tool that we have been given to set up our database to post and pull from. So far, so good. I haven't broken it yet, though the night is still young."
     }
   ]
 }
