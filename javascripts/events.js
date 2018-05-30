@@ -8,6 +8,12 @@ const attachEventHandler = () => {
   $('#project-btn').on('click', writeProjects);
   $('#resume-btn').on('click', writeResume);
   $('#funFact-btn').on('click', writeFunFact);
+  $('#index-page').on('click', indexPage);
+};
+
+const indexPage = () => {
+  $('#main-content').show();
+  $('#blog-content, #project-content, #resume-content, #funfact-content').hide();
 };
 
 const writeBlogs = () => {

@@ -97,6 +97,12 @@ const attachEventHandler = () => {
   $('#project-btn').on('click', writeProjects);
   $('#resume-btn').on('click', writeResume);
   $('#funFact-btn').on('click', writeFunFact);
+  $('#index-page').on('click', indexPage);
+};
+
+const indexPage = () => {
+  $('#main-content').show();
+  $('#blog-content, #project-content, #resume-content, #funfact-content').hide();
 };
 
 const writeBlogs = () => {
@@ -151,7 +157,7 @@ const buildProjects = () => {
   projectData.forEach((project) => {
     domString += `<div class="panel panel-default project-container col-md-4">`;
     domString +=   `<div class="panel-heading">`;
-    domString +=     `<h3 class="panel-title">${project.title}</h3>`;
+    domString +=     `<h1 class="panel-title">${project.title}</h1>`;
     domString +=   `</div>`;
     domString +=   `<div class="panel-body">`;
     domString +=     `<img src="${project.imageURL}" alt="${project.altText}" class="project-img">`;
