@@ -89,6 +89,12 @@
       "title": "Firebase",
       "date": "Wednesday, May 30, 2018",
       "post": "Make way for firebase. Now that we have gone over promises, it is time to start mocking databases- and I do not mean mock as in make fun of, although that could be a thing. Firebase is the tool that we have been given to set up our database to post and pull from. So far, so good. I haven't broken it yet, though the night is still young."
+    },
+    {
+      "id": "blog15",
+      "title": "Firebase Authorizations",
+      "date": "Saturday, June 9, 2018",
+      "post": "This week we have started to go through Firebase Authorizations. It seems easy enough- it's not like it's writing different code each time. All we have to do is remember to put the function in."
     }
   ],
   "projectArray": [
