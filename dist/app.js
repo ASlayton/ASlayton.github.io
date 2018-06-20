@@ -35,7 +35,6 @@ module.exports = {
 const writeToDom = require('./writeToDom');
 
 const buildBlog = (blogData) => {
-  console.log('Blog data: ', blogData);
   let domString = '';
   blogData.forEach((post) => {
     domString += `<div class='blog-post-container'>`;
@@ -193,7 +192,6 @@ startApplication();
 const writeToDom = require('./writeToDom');
 
 const buildProjects = (projectData) => {
-  console.log('Project Data: ', projectData);
   let domString = '';
   projectData.forEach((project) => {
     domString += `<div class="panel panel-default project-container">`;

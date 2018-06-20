@@ -1,7 +1,6 @@
 const writeToDom = require('./writeToDom');
 
 const buildProjects = (projectData) => {
-  console.log('Project Data: ', projectData);
   let domString = '';
   projectData.forEach((project) => {
     domString += `<div class="panel panel-default project-container">`;

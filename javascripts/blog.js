@@ -1,7 +1,6 @@
 const writeToDom = require('./writeToDom');
 
 const buildBlog = (blogData) => {
-  console.log('Blog data: ', blogData);
   let domString = '';
   blogData.forEach((post) => {
     domString += `<div class='blog-post-container'>`;
