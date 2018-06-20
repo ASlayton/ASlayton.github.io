@@ -1,7 +1,4 @@
-const data = require('./data');
-
-const buildResume = () => {
-  const resumeArray = data.getJobData();
+const buildResume = (resumeArray) => {
   let domString = '';
   resumeArray.forEach((job) => {
     domString += `<div class="job-container">`;

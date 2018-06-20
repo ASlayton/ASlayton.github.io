@@ -1,7 +1,6 @@
 const blogData = require('./blog');
 const projectData = require('./projects');
-const resumeData = require('./resume');
-const factData = require('./funfact');
+const firebaseApi = require('./firebaseAPI');
 
 const attachEventHandler = () => {
   $('#blog-btn').on('click', writeBlogs);
@@ -17,25 +16,47 @@ const indexPage = () => {
 };
 
 const writeBlogs = () => {
-  $('#blog-content').append(blogData.buildBlog()).show();
+  $('#blog-content').show();
   $('#main-content, #project-content, #resume-content, #funfact-content').hide();
 };
 
 const writeProjects = () => {
-  $('#project-content').append(projectData.buildProjects()).show();
+  $('#project-content').show();
   $('#main-content, #blog-content,  #resume-content, #funfact-content').hide();
 };
 
 const writeResume = () => {
-  $('#resume-content').append(resumeData.buildResume()).show();
+  $('#resume-content').show();
   $('#main-content, #blog-content, #project-content, #funfact-content').hide();
 };
 
 const writeFunFact = () => {
-  $('#funfact-content').append(factData.buildFunFact()).show();
+  $('#funfact-content').show();
   $('#main-content, #blog-content, #project-content, #resume-content').hide();
+};
+
+const getAllBlogDataEvent = () => {
+  firebaseApi.getAllBlogData()
+    .then((dataArray) => {
+      blogData.buildBlog(dataArray);
+    })
+    .catch((error) => {
+      console.error('error in get all data', error);
+    });
+};
+
+const getAllProjectDataEvent = () => {
+  firebaseApi.getAllProjectData()
+    .then((dataArray) => {
+      projectData.buildProjects(dataArray);
+    })
+    .catch((error) => {
+      console.error('error in get all data', error);
+    });
 };
 
 module.exports = {
   attachEventHandler,
+  getAllBlogDataEvent,
+  getAllProjectDataEvent,
 };
