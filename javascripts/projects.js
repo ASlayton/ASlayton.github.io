@@ -8,11 +8,19 @@ const buildProjects = (projectData) => {
     domString +=     `<h1 class="panel-title">${project.title}</h1>`;
     domString +=   `</div>`;
     domString +=   `<div class="panel-body">`;
-    domString +=     `<img src="${project.imageURL}" alt="${project.altText}" class="project-img">`;
+    domString +=     `<img src="${project.thumbnail}" alt="Project Screenshot" class="project-img">`;
     domString +=     `<p>${project.description}</p>`;
+    domString +=     `<ul>`;
+    project.technologiesUsed.forEach((tech) => {
+      domString += `<li>${tech}</li>`;
+    });
+    domString +=     `</ul>`;
     domString +=   `</div>`;
     domString +=   `<div class="panel-footer">`;
-    domString +=     `<a>${project.linkToPage}</a>`;
+    if (project.url !== '') {
+      domString +=   `<a href="${project.url}">Check me out!</a>`;
+    };
+    domString +=     `<a href="${project.github}">Look at the code here!</a>`;
     domString +=   `</div>`;
     domString += `</div>`;
   });

@@ -1,0 +1,105 @@
+* {
+  /* border-radius: 0 !important; */
+  border: none !important;
+}
+
+body {
+  background-image: url(/images/damask-937607.jpg);
+  background-attachment: fixed;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 2em;
+}
+
+.blog-post-container {
+  background-color: whitesmoke;
+  box-shadow: 6px 6px 9px -1px;
+  padding: 1em;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+h1 {
+  font-size: 2em important!;
+}
+
+#index-page {
+  font-size: 2em;
+  padding-top: 20px;
+}
+
+.navbar, a {
+  background-color: #7e687a;
+  color: oldlace !important;
+}
+
+a:hover {
+  color: #97A686 !important;
+}
+
+.spacer {
+  background-color:  #97A686;
+  height: 10px;
+  width: 100%;
+  margin: 0;
+}
+
+#head-space {
+  position: absolute;
+  top: 75px;
+}
+
+#foot-space {
+  position: absolute;
+  bottom: 50px;
+}
+
+#profilePic {
+  height: 300px;
+  border-radius: 50%;
+}
+
+#page-content-wrapper {
+  margin-top: 50px;
+  margin-bottom: 70px;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.selected-page {
+  text-decoration: underline;
+}
+
+.contact-img {
+  width: 28px;
+}
+
+.project-img {
+  width: 100%;
+  max-height: 200px;
+}
+
+.project-container {
+  height: 400px;
+  margin: 5px;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.panel-heading, .panel-footer {
+  width: 100%;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.panel-body p {
+  height: 80px;
+}
+
+.header {
+  height: 75px;
+  font-family: 'Marko One', serif;
+}
+
+.footer {
+  height: 50px;
+}
