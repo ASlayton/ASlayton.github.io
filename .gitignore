@@ -1,6 +1,7 @@
 lib/node_modules
 .DS_Store
-db/apiKeys.json
-build/
 styles/main.css
 dist/app.js
+.vscode
+db/apiKeys.json
+build

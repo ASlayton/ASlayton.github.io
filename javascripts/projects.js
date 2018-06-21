@@ -1,10 +1,9 @@
-const data = require('./data');
+const writeToDom = require('./writeToDom');
 
-const buildProjects = () => {
-  const projectData = data.getProjectData();
+const buildProjects = (projectData) => {
   let domString = '';
   projectData.forEach((project) => {
-    domString += `<div class="panel panel-default project-container col-md-4">`;
+    domString += `<div class="panel panel-default project-container">`;
     domString +=   `<div class="panel-heading">`;
     domString +=     `<h1 class="panel-title">${project.title}</h1>`;
     domString +=   `</div>`;
@@ -17,7 +16,7 @@ const buildProjects = () => {
     domString +=   `</div>`;
     domString += `</div>`;
   });
-  return domString;
+  writeToDom.writeToDom(domString, '#project-content');
 };
 
 module.exports = {

@@ -1,5 +1,7 @@
 const writeToDom = (myString, myElement) => {
-  document.getElementById(myElement).innerHTML = myString;
+  $(myElement).html(myString);
 };
 
-module.exports = writeToDom;
+module.exports = {
+  writeToDom,
+};
