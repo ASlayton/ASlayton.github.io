@@ -4,4 +4,4 @@ styles/main.css
 dist/app.js
 .vscode
 db/apiKeys.json
-build
+build/
