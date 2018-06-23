@@ -5,10 +5,10 @@ const buildProjects = (projectData) => {
   projectData.forEach((project) => {
     domString += `<div class="panel panel-default project-container">`;
     domString +=   `<div class="panel-heading">`;
-    domString +=     `<h1 class="panel-title">${project.title}</h1>`;
+    domString +=     `<h3 class="panel-title">${project.title}</h3>`;
     domString +=   `</div>`;
     domString +=   `<div class="panel-body">`;
-    domString +=     `<img src="${project.thumbnail}" alt="Project Screenshot" class="project-img">`;
+    domString +=     `<img src="${project.thumbnail}" alt="Project Screenshot" class="project-img thumbnail">`;
     domString +=     `<p>${project.description}</p>`;
     domString +=     `<ul>`;
     project.technologiesUsed.forEach((tech) => {

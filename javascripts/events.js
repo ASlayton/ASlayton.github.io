@@ -12,27 +12,27 @@ const attachEventHandler = () => {
 
 const indexPage = () => {
   $('#main-content').show();
-  $('#blog-content, #project-content, #resume-content, #funfact-content').hide();
+  $('#blog-main-content, #project-main-content, #resume-content, #funfact-content').hide();
 };
 
 const writeBlogs = () => {
-  $('#blog-content').show();
-  $('#main-content, #project-content, #resume-content, #funfact-content').hide();
+  $('#blog-main-content').show();
+  $('#main-content, #project-main-content, #resume-content, #funfact-content').hide();
 };
 
 const writeProjects = () => {
-  $('#project-content').show();
-  $('#main-content, #blog-content,  #resume-content, #funfact-content').hide();
+  $('#project-main-content').show();
+  $('#main-content, #blog-main-content,  #resume-content, #funfact-content').hide();
 };
 
 const writeResume = () => {
   $('#resume-content').show();
-  $('#main-content, #blog-content, #project-content, #funfact-content').hide();
+  $('#main-content, #blog-main-content, #project-main-content, #funfact-content').hide();
 };
 
 const writeFunFact = () => {
   $('#funfact-content').show();
-  $('#main-content, #blog-content, #project-content, #resume-content').hide();
+  $('#main-content, #blog-main-content, #project-main-content, #resume-content').hide();
 };
 
 const getAllBlogDataEvent = () => {
