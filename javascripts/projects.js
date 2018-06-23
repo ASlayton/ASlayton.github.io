@@ -12,7 +12,7 @@ const buildProjects = (projectData) => {
     domString +=     `<p>${project.description}</p>`;
     domString +=     `<ul>`;
     project.technologiesUsed.forEach((tech) => {
-      domString += `<li>${tech}</li>`;
+      domString += `<li><img class="tech-icon" src="${tech}"></li>`;
     });
     domString +=     `</ul>`;
     domString +=   `</div>`;
