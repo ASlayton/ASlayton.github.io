@@ -10,7 +10,7 @@ const buildProjects = (projectData) => {
     domString +=   `<div class="panel-body">`;
     domString +=     `<img src="${project.thumbnail}" alt="Project Screenshot" class="project-img thumbnail">`;
     domString +=     `<p>${project.description}</p>`;
-    domString +=     `<ul>`;
+    domString +=     `<ul class="tech-container">`;
     project.technologiesUsed.forEach((tech) => {
       domString += `<li><img class="tech-icon" src="${tech}"></li>`;
     });

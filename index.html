@@ -6,10 +6,11 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>A. Slayton</title>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-  <link href="https://fonts.googleapis.com/css?family=Marko+One|Roboto+Condensed" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Marko+One|Roboto+Condensed|Permanent+Marker" rel="stylesheet">
   <link rel="stylesheet" href="/styles/main.css">
 </head>
 <body>
+  <div id="splash-screen"></div>
   <!-- NAVBAR -->
   <nav class="navbar navbar-inverse header">
       <div class="container-fluid">
@@ -25,19 +26,30 @@
         </div>
 
         <!-- Collect the nav links, forms, and other content for toggling -->
-        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-          <ul class="nav navbar-nav navbar-right">
-            <li class="custom-style" id='blog-btn'><a href="#">Blog</a></li>
-            <li class="custom-style" id='project-btn'><a href="#">Project Portfolio</a></li>
-            <li class="custom-style" id='resume-btn'><a href="#">Professional History</a></li>
-            <li class="custom-style" id='funFact-btn'><a href="#">FunFact</a></li>
-          </ul>
-        </div><!-- /.navbar-collapse -->
+
       </div><!-- /.container-fluid -->
     </nav>
     <p class="spacer" id="head-space"></p>
 <!-- MAIN BODY -->
-
+    <div>
+      <ul id="navigation-container">
+        <li class="nav-note">
+          <a id="blog-btn">Blog</a>
+        </li>
+        <li class="nav-note">
+          <a id="project-btn">Portfolio</a>
+        </li>
+        <li class="nav-note">
+          <a id="resume-btn">Professional History</a>
+        </li>
+        <li class="nav-note">
+          <a id="funFact-btn">Funfact</a>
+        </li>
+        <li class="nav-note">
+          <a id="contact-btn">Contacts</a>
+        </li>
+      </ul>
+    </div>
     <div id="page-content-wrapper" class="col-md-8 col-lg-8 col-sm-12 col-lg-offset-2 col-md-offset-2">
       <div id="main-content">
         <div class="col-md-6 text-center">
@@ -106,14 +118,8 @@
         <p>When I was a kid, we had gotten my mom a pair of Madagascar Hissing Cockroaches as a joke present. She had the opposite reaction than we expected and before long, had 82 pet cockroaches.</p>
         <img src='/images/cockroach.jpg' alt='Madagascar Hissing Cockroach'>
       </div>
-    </div>
-
-<!-- FOOTER  -->
-
-    <nav class="navbar footer navbar-inverse navbar-fixed-bottom">
-      <p class="spacer navbar-fixed-bottom" id="foot-space"></p>
-      <div class="container col-lg-10 text-right">
-        <ul class="nav nav-pills`">
+      <div id="contact-content">
+        <ul class="nav nav-pills col-md-6">
           <li role="presentation">
             <a href="https://www.facebook.com/OnlySomewhat" title="Facebook">
               <img src="/images/FB-f-Logo__blue_29.png" alt="Facebook" class="contact-img">
@@ -141,10 +147,16 @@
           </li>
         </ul>
       </div>
-      <div class="container col-lg-2">
-        <p>&copy;A.Slayton - OnlySomewhat 2018</p>
-      </div>
-    </nav>
+    </div>
+
+<!-- FOOTER  -->
+
+  <nav class="navbar footer navbar-inverse navbar-fixed-bottom">
+    <p class="spacer navbar-fixed-bottom" id="foot-space"></p>
+    <div class="container col-lg-2">
+      <p>&copy;A.Slayton - OnlySomewhat 2018</p>
+    </div>
+  </nav>
 
 <!-- SCRIPTS -->
   <script
