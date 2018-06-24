@@ -1,0 +1,26 @@
+.project-img {
+  max-height: 200px;
+}
+
+.project-container {
+  margin: 5px;
+  padding-left: 0;
+  box-shadow: 6px 6px 9px -1px;
+  padding-right: 0;
+}
+
+.tech-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+
+  li{
+    list-style: none;
+  }
+
+  .tech-icon {
+    width: 20px;
+  }
+}
+

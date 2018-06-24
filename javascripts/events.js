@@ -8,31 +8,37 @@ const attachEventHandler = () => {
   $('#resume-btn').on('click', writeResume);
   $('#funFact-btn').on('click', writeFunFact);
   $('#index-page').on('click', indexPage);
+  $('#contact-btn').on('click', contactPage);
+};
+
+const contactPage = () => {
+  $('#contact-content').show();
+  $('#blog-main-content, #project-main-content, #resume-content, #funfact-content, #main-content').hide();
 };
 
 const indexPage = () => {
   $('#main-content').show();
-  $('#blog-main-content, #project-main-content, #resume-content, #funfact-content').hide();
+  $('#blog-main-content, #project-main-content, #resume-content, #funfact-content, #contact-content').hide();
 };
 
 const writeBlogs = () => {
   $('#blog-main-content').show();
-  $('#main-content, #project-main-content, #resume-content, #funfact-content').hide();
+  $('#main-content, #project-main-content, #resume-content, #funfact-content, #contact-content').hide();
 };
 
 const writeProjects = () => {
   $('#project-main-content').show();
-  $('#main-content, #blog-main-content,  #resume-content, #funfact-content').hide();
+  $('#main-content, #blog-main-content,  #resume-content, #funfact-content, #contact-content').hide();
 };
 
 const writeResume = () => {
   $('#resume-content').show();
-  $('#main-content, #blog-main-content, #project-main-content, #funfact-content').hide();
+  $('#main-content, #blog-main-content, #project-main-content, #funfact-content, #contact-content').hide();
 };
 
 const writeFunFact = () => {
   $('#funfact-content').show();
-  $('#main-content, #blog-main-content, #project-main-content, #resume-content').hide();
+  $('#main-content, #blog-main-content, #project-main-content, #resume-content, #contact-content').hide();
 };
 
 const getAllBlogDataEvent = () => {

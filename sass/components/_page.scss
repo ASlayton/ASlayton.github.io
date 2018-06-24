@@ -1,0 +1,58 @@
+@import '../variables';
+
+* {
+  border: none !important;
+}
+
+
+#page-content-wrapper {
+  margin-top: 50px;
+  margin-bottom: 70px;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+body {
+  background-image: url(/images/damask-937607.jpg);
+  background-attachment: fixed;
+  font-family: $secondary-font;
+  font-size: 2em;
+}
+
+h1 {
+  font-size: 2em !important;
+  color: $blue;
+  font-family: $header-font;
+}
+
+a:hover {
+  color: $green;
+}
+
+// PANEL STYLING
+
+.panel-heading {
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.panel-footer {
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.panel-heading, .panel-footer {
+  width: 100%;
+  padding-left: 0;
+  padding-right: 0;
+  background-color: $green !important;
+}
+
+.panel-body p {
+  height: 80px;
+  background-color: $white;
+}
+
+.panel {
+  box-shadow: 6px 6px 9px -1px;
+}
