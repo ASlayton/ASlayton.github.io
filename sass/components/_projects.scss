@@ -24,3 +24,15 @@
   }
 }
 
+.techUsed-container {
+  height: 100%;
+  border-right: 1px black solid;
+  li {
+    list-style: none;
+  }
+
+  .main-tech-icon{
+    width: 75px;
+    margin: 20px;
+  }
+}

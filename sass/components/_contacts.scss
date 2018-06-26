@@ -1,7 +1,20 @@
-.contact-img:hover {
-  width: 50px;
-}
 
-.contact-img {
-  width: 40px;
+
+#contact-content {
+  background-image: url(https://www.maxpixel.net/static/photo/1x/Bulletin-Board-Save-To-List-Note-Office-Write-Down-519960.jpg);
+  height: 720px;
+  width: 545px;
+  margin: auto;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .contact-img:hover {
+    width: 50px;
+  }
+
+  .contact-img {
+    width: 100px;
+  }
 }
