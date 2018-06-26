@@ -12,33 +12,33 @@ const attachEventHandler = () => {
 };
 
 const contactPage = () => {
-  $('#contact-content').show();
-  $('#blog-main-content, #project-main-content, #resume-content, #funfact-content, #main-content').hide();
+  $('#blog-main-content, #project-main-content, #resume-content, #funfact-content, #main-content').fadeOut();
+  $('#contact-content').fadeIn();
 };
 
 const indexPage = () => {
-  $('#main-content').show();
-  $('#blog-main-content, #project-main-content, #resume-content, #funfact-content, #contact-content').hide();
+  $('#blog-main-content, #project-main-content, #resume-content, #funfact-content, #contact-content').fadeOut();
+  $('#main-content').fadeIn();
 };
 
 const writeBlogs = () => {
-  $('#blog-main-content').show();
-  $('#main-content, #project-main-content, #resume-content, #funfact-content, #contact-content').hide();
+  $('#main-content, #project-main-content, #resume-content, #funfact-content, #contact-content').fadeOut();
+  $('#blog-main-content').fadeIn();
 };
 
 const writeProjects = () => {
-  $('#project-main-content').show();
-  $('#main-content, #blog-main-content,  #resume-content, #funfact-content, #contact-content').hide();
+  $('#main-content, #blog-main-content,  #resume-content, #funfact-content, #contact-content').fadeOut();
+  $('#project-main-content').fadeIn();
 };
 
 const writeResume = () => {
-  $('#resume-content').show();
-  $('#main-content, #blog-main-content, #project-main-content, #funfact-content, #contact-content').hide();
+  $('#main-content, #blog-main-content, #project-main-content, #funfact-content, #contact-content').fadeOut();
+  $('#resume-content').fadeIn();
 };
 
 const writeFunFact = () => {
-  $('#funfact-content').show();
   $('#main-content, #blog-main-content, #project-main-content, #resume-content, #contact-content').hide();
+  $('#funfact-content').fadeIn();
 };
 
 const getAllBlogDataEvent = () => {
