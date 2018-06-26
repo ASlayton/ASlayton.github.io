@@ -100,5 +100,11 @@
       "title": "What can I say?",
       "date": "Tuesday, June 12, 2018",
       "post": "Where do I start with this one. So much has happened this past month. I feel like I am finally coming out of this fog that has enveloped me these past few weeks. June 2nd we drove up to New York to attend my grandfather's funeral. That same day my dad had a ministroke and ended up in the hospital, in New York. I know I shouldn't worry about these things, stuff is going to happen as they will, worrying about it changes nothing. But still, my brain has been working overtime on hypotheticals rather than on the things I should be thinking about."
+    },
+    {
+      "id": "blog17",
+      "title": "SASS",
+      "date": "Tuesday, June 26, 2018",
+      "post": "We have gone over SASS, well, more like blew through it. I'm liking it a lot, it makes so much more sense than regular CSS. My CSS file on my personsite was a mess. I attempted at organizing it like they showed on TeamTreeHouse.com but that didn't work since so much of my styling was shared. Now everything is tucked away into it's own little component page, no more hunting to see if I had included a style anywhere else. Tonight we will be getting into the nitty-gritty of REACT. This is going to be fun. I have a feeling that I have been waiting for this."
     }
   ]
