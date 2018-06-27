@@ -4,17 +4,58 @@
   background-image: url(https://www.maxpixel.net/static/photo/1x/Bulletin-Board-Save-To-List-Note-Office-Write-Down-519960.jpg);
   height: 720px;
   width: 545px;
-  margin: auto;
+  margin: 70px auto;
   background-size: cover;
   display: flex;
   justify-content: center;
   align-items: center;
+  position: absolute;
+  border-radius: 5px;
+
+  h1 {
+    font-weight: bolder;
+    text-shadow: 5px 5px 7px rgba(33,33,33,.7);
+  }
+
+  a {
+    box-shadow: 5px 5px 7px rgba(33,33,33,.7);
+    background-color: ghostwhite;
+  }
 
   .contact-img:hover {
-    width: 50px;
+    transform: scale(1.1);
   }
 
   .contact-img {
     width: 100px;
+    transition: all .2s ease-in-out;
   }
+
+  ul {
+    li:first-child{
+      transform: rotate(2deg);
+      position:relative;
+    }
+    li:nth-child(even){
+      transform:rotate(4deg);
+      position:relative;
+      top:5px;
+      right: 62px;
+      line-height: 55px;
+    }
+    li:nth-child(3n){
+      transform:rotate(-3deg);
+      position:relative;
+      top:-5px;
+      right: -100px;
+    }
+    li:nth-child(5n){
+      transform:rotate(5deg);
+      position:relative;
+      top:-10px;
+      right: -150px;
+      line-height: 55px;
+    }
+  }
+
 }
