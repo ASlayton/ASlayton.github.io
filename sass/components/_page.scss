@@ -61,3 +61,25 @@ a:hover {
 .panel {
   box-shadow: 6px 6px 9px -1px;
 }
+
+@media (min-width: 760px) {
+  .hide-shor-nav {
+    display: none;
+  }
+}
+
+@media (max-width: 760px) {
+  .hide-long-nav {
+    display: none;
+  }
+  .techUsed-container {
+    display:none;
+  }
+  #index-page {
+    position:absolute;
+    font-size:24px !important;
+  }
+  #contact-content {
+    display: inline-block;
+  }
+}

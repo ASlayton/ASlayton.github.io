@@ -9,6 +9,12 @@ const attachEventHandler = () => {
   $('#funFact-btn').on('click', writeFunFact);
   $('#index-page').on('click', indexPage);
   $('#contact-btn').on('click', contactPage);
+  $('#blog-btn-opt').on('click', writeBlogs);
+  $('#project-btn-opt').on('click', writeProjects);
+  $('#resume-btn-opt').on('click', writeResume);
+  $('#funFact-btn-opt').on('click', writeFunFact);
+  $('#index-page-opt').on('click', indexPage);
+  $('#contact-btn-opt').on('click', contactPage);
 };
 
 const contactPage = () => {

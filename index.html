@@ -26,12 +26,22 @@
         </div>
 
         <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+
+          <ul class="nav navbar-nav navbar-right hide-shor-nav" >
+            <li><a href="#" id ="blog-btn-opt">Blog</a></li>
+            <li><a href="#" id="project-btn-opt">Portfolio</a></li>
+            <li><a href="#" id="resume-btn-opt">Professional History</a></li>
+            <li><a href="#" id="funFact-btn-opt">Fun Fact</a></li>
+            <li><a href="#" id="contact-btn-opt">Contacts</a></li>
+          </ul>
+        </div>
 
       </div><!-- /.container-fluid -->
     </nav>
     <p class="spacer" id="head-space"></p>
 <!-- MAIN BODY -->
-    <div>
+    <div class="hide-long-nav">
       <ul id="navigation-container">
         <li class="nav-note">
           <a id="blog-btn">Blog</a>
@@ -52,22 +62,22 @@
     </div>
     <div id="page-content-wrapper" class="col-md-8 col-lg-8 col-sm-12 col-lg-offset-2 col-md-offset-2">
       <div id="main-content">
-        <div class="col-md-6 text-center">
+        <div class="col-md-6 col-sm-4 text-center">
           <img src="/images/aslayton.jpg" alt="Amanda Slayton Profile Picture" id="profilePic">
         </div>
-        <div class="col-md-6 index-about-para">
+        <div class="col-md-6 col-sm-8 index-about-para">
           <h1>About the Author:</h1>
           <p>Amanda Slayton is a quality associate at Feintool Tennessee and student in Evening Cohort 7 at Nashville Software School studying to be a Full-Stack Wed Developer. When she isn't coding, you can find her reading, gaming, or outside enjoying that beautiful Tennessee weather.</p>
           <p>Working at Feintool has given her the motivation and skills neccessary to become a web developer through problem-solving, troubleshooting, and poring through lines of Basic Script. Having never seen code before, it wasn't long before she discovered that this is what she wanted to learn and to do professionally.</p>
         </div>
       </div>
-      <div id="blog-main-content">
+      <div id="blog-main-content" class="col-sm-10 col-sm-offset-1">
         <h1>Thoughts:</h1>
         <div id="blog-content"></div>
       </div>
 
       <div id="project-main-content">
-        <div class="techUsed-container col-md-4">
+        <div class="techUsed-container col-md-4 col-sm-3">
           <ul>
             <li><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/512px-HTML5_logo_and_wordmark.svg.png" alt="HTML5" class="main-tech-icon"></li>
             <li><img src=https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/363px-CSS3_logo_and_wordmark.svg.png alt="CSS3" class="main-tech-icon"></li>
@@ -83,7 +93,7 @@
             <li><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/2000px-React-icon.svg.png" alt="React" class="main-tech-icon"></li>
           </ul>
         </div>
-        <div class="col-md-8">
+        <div class="col-md-8 col-sm-9">
           <h1>Project Portfolio</h1>
         <div id="project-content">
         </div>
@@ -138,7 +148,7 @@
         <img src='/images/cockroach.jpg' alt='Madagascar Hissing Cockroach'>
       </div>
       <div id="contact-content">
-        <ul class="nav nav-pills col-md-6">
+        <ul class="nav nav-pills col-md-6 col-sm-6">
         <h1>CONTACTS</h1>
           <li role="presentation">
             <a href="https://www.facebook.com/OnlySomewhat" title="Facebook">
