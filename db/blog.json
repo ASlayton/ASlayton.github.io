@@ -106,5 +106,11 @@
       "title": "SASS",
       "date": "Tuesday, June 26, 2018",
       "post": "We have gone over SASS; well, more like blew through it. I'm liking it a lot, it makes so much more sense than regular CSS. My CSS file on my personal site was a mess. I attempted at organizing it like they showed on TeamTreeHouse.com but that didn't work since so much of my styling was shared. Now everything is tucked away into it's own little component page, no more hunting to see if I had included a style anywhere else. Tonight we will be getting into the nitty-gritty of REACT. This is going to be fun. I have a feeling that I have been waiting for this."
+    },
+    {
+      "id": "blog18",
+      "title": "REACT",
+      "date": "Thursday, June 28, 2018",
+      "post": "We have gotten into REACT. I am able to grab data from Firebase and display it, but I do not understand how or why. It's just going to be a bit of a learning curve, much like everything else in this class. Once I get into the hang of it, this is going to seem so simple and hopefully, intuitive. It's just getting to that point that sucks."
     }
   ]
