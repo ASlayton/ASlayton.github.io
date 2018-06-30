@@ -51,6 +51,7 @@ const getAllBlogDataEvent = () => {
   firebaseApi.getAllBlogData()
     .then((dataArray) => {
       blogData.buildBlog(dataArray);
+      blogData.buildArchive(dataArray);
     })
     .catch((error) => {
       console.error('error in get all data', error);
