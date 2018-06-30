@@ -68,6 +68,12 @@ a:hover {
   }
 }
 
+@media (max-width: 1338px) {
+  #blog-archive {
+    display: none;
+  }
+}
+
 @media (max-width: 760px) {
   .hide-long-nav {
     display: none;
