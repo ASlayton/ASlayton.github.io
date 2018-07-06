@@ -88,4 +88,20 @@ a:hover {
   #contact-content {
     display: inline-block;
   }
+  .header {
+    height: 50px;
+  }
+
+  #bs-example-navbar-collapse-1 {
+    background-color: $purple;
+    z-index: 10000;
+  }
+
+  #profilePic {
+    top: -350px;
+  }
+
+  #head-space {
+    display: none;
+  }
 }
