@@ -124,5 +124,17 @@
       "title": "What now?",
       "date": "Wednesday, July 18, 2018",
       "post": "I hate to say this, but I feel as though I know less now than when I started. It's not true, but with the way things are going, well, suffice to say, I have a LOT of growing to do. I have proposed my capstone project, it has been accepted, planning is more or less done, now is the time for all of this to bear some fruit. I do not feel good about this. They did not even scratch the surface of what is included in REACT and I am wasting hours of my days looking up tutorials and staring at my code wondering what on earth I am doing. I attended a Common Table at the school, but its not enough. There simply is not enough time and the instructors are simply much too busy helping everyone else out or taking care of thier own stuff to be much use. Just another two weeks and I'll have it figured out. I'll either manage to do it or I won't."
+    },
+    {
+      "id": "blog21",
+      "title": "FrontEnd Complete",
+      "date": "Monday, August 20, 2018",
+      "post": "We have finished the Capstones for the front-end portion of the year here at NSS. Everybody did such a good job on their projects. I feared mine would not hold up to scrutiny, but it did and it actually turned out well. We presented our projects on Saturday. I seriously need to work on my presentation skills. I started shaking so hard my mouse was everywhere, and even though I had notes on what I wanted to do, I forgot I had them, but people kept coming up to me afterward and complimenting me on my project, so I guess it went well. Tonight we are starting the back-end section of the course. I don't know if I am ready for it, but really I am just ready to get this year over with, learn as much as I can, and find a job that I enjoy doing."
+    },
+    {
+      "id": "blog22",
+      "title": "Intro to C#",
+      "date": "Monday, August 27, 2018",
+      "post": "We are continuing our introduction to C#, which is not too bad so far. Syntatically it is slightly different from javascript, but not so much that it is confusing. I'm sure my thoughts on the subject will change once we start getting into the more advanced topics. Up to this point we have covered basic structure, variable types, and control flow."
     }
   ]
