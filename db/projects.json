@@ -1,4 +1,14 @@
-[{
+[
+  {
+    "title": "Ex Tracker",
+    "thumbnail": "https://github.com/ASlayton/lemuria/blob/master/screenshots/GameScreen.png?raw=true",
+    "description": "Lemuria is a text-based RPG built around a Jules Verne-esque landscape. In a space-exploration voyage gone wrong, you have crash landed in the Land of Lemuria - a land being reclaimed by the natural realm after its inhabitants have self-destructed in a technological apocalypse. You must make your way through the treacherous landscape to find someone who may be able to send you back to your own world. ",
+    "technologiesUsed": ["https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/512px-HTML5_logo_and_wordmark.svg.png", "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/363px-CSS3_logo_and_wordmark.svg.png", "https://raw.githubusercontent.com/voodootikigod/logo.js/master/js.png", "http://icons.iconarchive.com/icons/sicons/basic-round-social/256/jquery-icon.png", "https://cdn2.iconfinder.com/data/icons/nodejs-1/512/nodejs-512.png", "https://toggl.com/blog/wp-content/uploads/2014/04/grunt-logo.png", "https://dh.virginia.edu/system/files/styles/large/private/bootstrap-stack.png?itok=PwhHCxo1","https://git-scm.com/images/logos/downloads/Git-Icon-Black.png", "https://cdn2.iconfinder.com/data/icons/designer-skills/128/react-512.png"],
+    "available": true,
+    "url": "https://lemurianadventure1886.firebaseapp.com",
+    "github": "https://github.com/ASlayton/exTracker"
+  },
+  {
   "title": "Movie Maker",
   "thumbnail": "https://github.com/ASlayton/movie-maker/blob/master/screenshots/pic1.png?raw=true",
   "description": "A single-page-app that allows a movie producer to set a budget and select elements to include in thier film without going over budget",
